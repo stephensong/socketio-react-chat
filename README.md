@@ -14,6 +14,7 @@ The purpose of this is to see how to use modern web libraries together in a sing
 - [Styled Components](https://www.styled-components.com/)
 - [Normalize.css](https://necolas.github.io/normalize.css/)
 - [OpenID Connect (Login with Google)](https://www.npmjs.com/package/openid-client)
+- [TSLint](https://github.com/palantir/tslint)
 
 I also have [an example](server/global.d.ts) of how to add missing type definitions for libraries that don't already have any.
 
