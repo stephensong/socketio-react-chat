@@ -28,14 +28,14 @@ export class CenteredSpinner extends React.Component<{}, { ready: boolean }> {
     ready: false,
   }
 
-  timer: NodeJS.Timer;
+  timer: NodeJS.Timer | undefined;
 
   componentDidMount() {
     this.timer = setTimeout(() => this.setState({ ready: true }), 1000);
   }
 
   componentWillUnmount() {
-    clearTimeout(this.timer);
+    clearTimeout(this.timer!);
   }
 
   render() {

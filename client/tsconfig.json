@@ -11,6 +11,10 @@
     "moduleResolution": "node",
     "rootDir": "src",
     "forceConsistentCasingInFileNames": true,
+    "strict": true, /* Enable all strict type-checking options. */
+    "strictFunctionTypes": true, /* Enable strict checking of function types. */
+    "strictPropertyInitialization": true, /* Enable strict checking of property initialization in classes. */
+    "alwaysStrict": true, /* Parse in strict mode and emit "use strict" for each source file. */
     "noImplicitReturns": true,
     "noImplicitThis": true,
     "noImplicitAny": true,
