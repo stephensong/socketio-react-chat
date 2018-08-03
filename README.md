@@ -25,7 +25,7 @@ Server:
     $ cd server
     $ cp config-sample.json config.json
     $ npm install
-    $ npm tsc
+    $ npx tsc
     $ node dist/index.js
 
 Client:
