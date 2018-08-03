@@ -22,12 +22,15 @@ I also have [an example](server/global.d.ts) of how to add missing type definiti
 
 Server:
 
+    $ cd server
+    $ cp config-sample.json config.json
     $ npm install
     $ npm tsc
     $ node dist/index.js
 
 Client:
 
+    $ cd client
     $ npm install
     $ npm start
 
